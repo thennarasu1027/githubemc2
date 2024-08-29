@@ -57,7 +57,7 @@ switch(day)
     default:
         alert("invalid choice>>>>");
 }*/
-var fruits=prompt("enter the Fruits name banana/apple:","Apple");
+/*var fruits=prompt("enter the Fruits name banana/apple:","Apple");
 switch(fruits)
 {
     case "banana":
@@ -68,9 +68,34 @@ switch(fruits)
         break;
     default:
         alert("invalid choice");
+}*/
+var operator=prompt("Enter the operators like(+,-,*,/)",1);
+var num1=prompt("enter the first number =");
+var num2=prompt("enter the Second number =");
+var result;
+switch(operator)
+{
+    case "+":
+        result=num1+num2;
+        document.write("<br>result:"+result);
+        break;
+    case "-":
+        result=num1-num2;
+        document.write("<br>result:"+result);
+        break;
+    case "*":
+        result=num1*num2;
+        document.write("<br>result:"+result);
+        break;
+    case "/":
+        result=num1/num2;
+        document.write("<br>result:"+result);
+        break;
+    default:
+        alert("invalid expression>>>");
+
 }
 
 </script>
-
 </body>
 </html>
