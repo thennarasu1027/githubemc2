@@ -70,31 +70,33 @@ switch(fruits)
         alert("invalid choice");
 }*/
 var operator=prompt("Enter the operators like(+,-,*,/)",1);
-var num1=prompt("enter the first number =");
-var num2=prompt("enter the Second number =");
-var result;
+var num1=parseInt(prompt("enter the first number ="));
+var num2=parseInt(prompt("enter the Second number ="));
+var result=0;
 switch(operator)
 {
     case "+":
         result=num1+num2;
-        document.write("<br>result:"+result);
+      //  document.write("<br>result:"+result);
         break;
     case "-":
         result=num1-num2;
-        document.write("<br>result:"+result);
+      //  document.write("<br>result:"+result);
         break;
     case "*":
         result=num1*num2;
-        document.write("<br>result:"+result);
+      //  document.write("<br>result:"+result);
         break;
     case "/":
         result=num1/num2;
-        document.write("<br>result:"+result);
+      //  document.write("<br>result:"+result);
         break;
     default:
         alert("invalid expression>>>");
+        break;
 
 }
+document.writeln("<br>Result="+result);
 
 </script>
 </body>
